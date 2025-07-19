@@ -1,0 +1,8 @@
+name: Hello Workflow
+on: [push]
+jobs:
+ say-hello:
+   run-on: ubutu-latest
+   steps:
+     - name: Print a message
+       run: echo "Hello GitHub Actions!"
